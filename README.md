@@ -5,8 +5,6 @@
   <img src="assets/tax.png" alt="TAX" style="display: block; margin: 0 auto;" />
 </p> -->
 
-----
-
 This is a repository for organizing papres, codes and other resources related to large language models for the scientific research process.
 
 <!-- Hallucination in LLM usually refers to the phenomenon that the generated content is nonsensical or unfaithful to the provided source content, such as violation of input instruction, or containing factual errors, etc.
