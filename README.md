@@ -25,9 +25,8 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 #### :star: If you find this repo useful, please star it!!! -->
 
-## Table of Contents <!-- omit in toc -->
+# Table of Contents <!-- omit in toc -->
 
-- [LLM4SR: A Survey on Large Language Models for Scientific Research](#llm4sr-a-survey-on-large-language-models-for-scientific-research)
   - [LLMs for Scientific Hypothesis Discovery](#llms-for-scientific-hypothesis-discovery)
   - [LLMs for Experiment Planning and Implementation](#llms-for-experiment-planning-and-implementation)
   - [LLMs for Scientific Paper Writing](#llms-for-scientific-paper-writing)
@@ -37,7 +36,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
     - [LLM-assisted Peer Reviewing Workflows](#llm-assisted-peer-reviewing-workflows)
     - [Benchmarks](#benchmarks)
 
-### LLMs for Scientific Hypothesis Discovery
+## LLMs for Scientific Hypothesis Discovery
 
 - **SciMON** [SciMON: Scientific Inspiration Machines Optimized for Novelty](https://arxiv.org/abs/2305.14259) (May. 23, 2023; ACL 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.14259)
@@ -91,7 +90,9 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 - [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930) (Apr. 30, 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.18930)
 
-### LLMs for Experiment Planning and Implementation
+---
+
+## LLMs for Experiment Planning and Implementation
 
 - **EventHallusion** [Diagnosing Event Hallucinations in Video LLMs](https://arxiv.org/abs/2409.16597) (Sep. 25, 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.16597)
@@ -268,7 +269,9 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 - **CHAIR** [Object Hallucination in Image Captioning](https://arxiv.org/abs/1809.02156) (EMNLP 2018)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1809.02156)
 
-### LLMs for Scientific Paper Writing
+---
+
+## LLMs for Scientific Paper Writing
 
 - **MemVR** [Look Twice Before You Answer: Memory-Space Visual Retracing for Hallucination Mitigation in Multimodal Large Language Models](https://arxiv.org/abs/2410.03577) (Oct. 7, 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.03577)
@@ -517,7 +520,9 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 - **HalDectect** [Detecting and Preventing Hallucinations in Large Vision Language Models](https://arxiv.org/abs/2308.06394) (Aug. 18, 2023)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2308.06394)
 
-### LLMs for Peer Reviewing
+---
+
+## LLMs for Peer Reviewing
 
 - **Increasing-Use-of-LLMs** [Mapping the Increasing Use of LLMs in Scientific Papers](https://arxiv.org/abs/2404.01268v1) (Apr. 1, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.01268v1)[![Star](https://img.shields.io/github/stars/Weixin-Liang/Mapping-the-Increasing-Use-of-LLMs-in-Scientific-Papers.svg?style=social&label=Star)](https://github.com/Weixin-Liang/Mapping-the-Increasing-Use-of-LLMs-in-Scientific-Papers)
 
@@ -541,7 +546,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 - **PR4PR** [Peer Reviews of Peer Reviews: A Randomized Controlled Trial and Other Experiments](https://arxiv.org/abs/2311.09497) (Nov. 16, 2023) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.09497)
 
-#### Automated Peer Reviewing Generation
+### Automated Peer Reviewing Generation
 
 - **LLM-MetaReview** [Prompting LLMs to Compose Meta-Review Drafts from Peer-Review Narratives of Scholarly Manuscripts](https://arxiv.org/abs/2402.15589v1) (Feb. 23, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.15589v1)
 
@@ -557,7 +562,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 - **MARG** [MARG: Multi-Agent Review Generation for Scientific Papers](https://arxiv.org/abs/2401.04259v1) (Jan. 8, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.04259v1) [![Star](https://img.shields.io/github/stars/allenai/marg-reviewer.svg?style=social&label=Star)](https://github.com/allenai/marg-reviewer)
 
-##### Peer Reviewing Tools
+#### Peer Reviewing Tools
 
 - [ScholarGPT](https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt)
 - [SciSpace](https://typeset.io/)
@@ -568,7 +573,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 - [Consensus](https://consensus.app/)
 - [Scholarcy](https://www.scholarcy.com/)
 
-#### LLM-assisted Peer Reviewing Workflows
+### LLM-assisted Peer Reviewing Workflows
 
 - **ChatGPT-Journal-Reviews** [ChatGPT and the Future of Journal Reviews](https://pmc.ncbi.nlm.nih.gov/articles/PMC10524821/#:~:text=Contextual%20Understanding%20and%20Expertise%3A%20ChatGPT,accuracy%20of%20complex%20research%20findings.) (Sep. 29, 2023)
 
@@ -590,7 +595,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 - **CARE** [CARE: Collaborative AI-Assisted Reading Environment](https://arxiv.org/abs/2302.12611v1) (Feb. 24, 2023) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2302.12611v1) [![Star](https://img.shields.io/github/stars/UKPLab/CARE.svg?style=social&label=Star)](https://github.com/UKPLab/CARE)
 
-#### Benchmarks
+### Benchmarks
 
 - **MOPRD** [MOPRD: A Multidisciplinary Open Peer Review Dataset](https://arxiv.org/abs/2212.04972v2) (Dec. 9, 2022)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2212.04972v2)
