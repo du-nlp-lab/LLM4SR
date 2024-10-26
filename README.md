@@ -27,10 +27,14 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 ## Table of Contents <!-- omit in toc -->
 
-- [LLMs for Scientific Hypothesis Discovery](#LLM4Discovery)
-- [LLMs for Experiment Planning and Implementation](#llm4experiment)
-- [LLMs for Scientific Paper Writing](#llm4writing)
-- [LLMs for Peer Reviewing](#ll4review)
+- [LLM4SR: A Survey on Large Language Models for Scientific Research](#llm4sr-a-survey-on-large-language-models-for-scientific-research)
+  - [LLMs for Scientific Hypothesis Discovery](#llms-for-scientific-hypothesis-discovery)
+  - [LLMs for Experiment Planning and Implementation](#llms-for-experiment-planning-and-implementation)
+  - [LLMs for Scientific Paper Writing](#llms-for-scientific-paper-writing)
+  - [LLMs for Peer Reviewing](#llms-for-peer-reviewing)
+    - [Automated Peer Reviewing Generation](#automated-peer-reviewing-generation)
+    - [LLM-assisted Peer Reviewing Workflows](#llm-assisted-peer-reviewing-workflows)
+    - [Benchmarks](#benchmarks)
 
 ### LLMs for Scientific Hypothesis Discovery
 
@@ -69,7 +73,6 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 - **Scideator** [Scideator: Human-LLM Scientific Idea Generation Grounded in Research-Paper Facet Recombination](https://arxiv.org/abs/2409.14634) (Sep. 23, 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.14634)
 
-
 - **MOOSE-Chem** [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses](https://arxiv.org/abs/2410.07076) (Oct. 9, 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.07076)
 
@@ -84,7 +87,6 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 - [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930) (Apr. 30, 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.18930)
-  
 
 ### LLMs for Experiment Planning and Implementation
 
@@ -518,74 +520,82 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 - **Can-LLM-Provide-Useful-Feedback?** [Can large language models provide useful feedback on research papers? A large-scale empirical analysis](https://arxiv.org/abs/2310.01783) (Oct. 3, 2023) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.01783)[![Star](https://img.shields.io/github/stars/weixin-liang/llm-scientific-feedback.svg?style=social&label=Star)](https://github.com/weixin-liang/llm-scientific-feedback)
 
-- **PaperQA2** [Language agents achieve superhuman synthesis of scientific knowledge](https://arxiv.org/abs/2409.13740) (Sep. 10, 2023) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.13740)[![Star](https://img.shields.io/github/stars/future-house/paper-qa.svg?style=social&label=Star)](https://github.com/future-house/paper-qa)
-
-- **CritiqueReview** [LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing](https://arxiv.org/abs/2406.16253) (Jun. 24, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.16253)[![Star](https://img.shields.io/github/stars/jiangshdd/reviewcritique.svg?style=social&label=Star)](https://github.com/jiangshdd/reviewcritique)
-
 - **NLP-for-Peer-Review** [What Can Natural Language Processing Do for Peer Review?](https://arxiv.org/abs/2405.06563) (May. 10, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.06563)[![Star](https://img.shields.io/github/stars/OAfzal/nlp-for-peer-review.svg?style=social&label=Star)](https://github.com/OAfzal/nlp-for-peer-review)
 
-- **SEA** [Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis](https://arxiv.org/abs/2407.12857v2) (Jul. 9, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.12857v2)[![Star](https://img.shields.io/github/stars/ecnu-sea/SEA.svg?style=social&label=Star)](https://github.com/ecnu-sea/SEA)
-
 - **Monitoring AI-Modified Content** [Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews](https://arxiv.org/abs/2403.07183v2) (Mar. 11, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.07183v2)[![Star](https://img.shields.io/github/stars/Weixin-Liang/Mapping-the-Increasing-Use-of-LLMs-in-Scientific-Papers.svg?style=social&label=Star)](https://github.com/Weixin-Liang/Mapping-the-Increasing-Use-of-LLMs-in-Scientific-Papers)
-
-- **MARG** [MARG: Multi-Agent Review Generation for Scientific Papers](https://arxiv.org/abs/2401.04259v1) (Jan. 8, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.04259v1) [![Star](https://img.shields.io/github/stars/allenai/marg-reviewer.svg?style=social&label=Star)](https://github.com/allenai/marg-reviewer)
-
-- **RR-MCQ** [Is LLM a Reliable Reviewer? A Comprehensive Evaluation of LLM on Automatic Paper Reviewing Tasks](https://aclanthology.org/2024.lrec-main.816/) (ACL2024)
-
-- **Reviewer2** [Reviewer2: Optimizing Review Generation Through Prompt Generation](https://arxiv.org/abs/2402.10886v1) (Feb. 16, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10886v1) [![Star](https://img.shields.io/github/stars/zhaolingao/reviewer2.svg?style=social&label=Star)](https://github.com/zhaolingao/reviewer2)
-
-- **ReviewerGPT** [ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing](https://arxiv.org/abs/2306.00622v1) (Jun. 1, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2306.00622v1) [![Star](https://img.shields.io/github/stars/niharshah/ReviewerGPT2023.svg?style=social&label=Star)](https://github.com/niharshah/ReviewerGPT2023)
-
-- **SWIF2T** [Automated Focused Feedback Generation for Scientific Writing Assistance](https://arxiv.org/abs/2405.20477v2) (May. 30, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.20477v2) [![Star](https://img.shields.io/github/stars/ericchamoun/FocusedFeedbackGeneration.svg?style=social&label=Star)](https://github.com/ericchamoun/FocusedFeedbackGeneration)
-
-- **NLPeer** [NLPeer: A Unified Resource for the Computational Study of Peer Review](https://arxiv.org/abs/2211.06651v2) (Nov. 12, 2022) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2211.06651v2) [![Star](https://img.shields.io/github/stars/ukplab/nlpeer.svg?style=social&label=Star)](https://github.com/ukplab/nlpeer)
-
-- **ChatGPT-Journal-Reviews** [ChatGPT and the Future of Journal Reviews](https://pmc.ncbi.nlm.nih.gov/articles/PMC10524821/#:~:text=Contextual%20Understanding%20and%20Expertise%3A%20ChatGPT,accuracy%20of%20complex%20research%20findings.) (Sep. 29, 2023)
-
-- **HumanInTheLoop-AI-Reviewing** [Human-in-the-loop AI Reviewing: Feasibility, Opportunities, and Risks](https://aisel.aisnet.org/jais/vol25/iss1/7/) (Jan. 1, 2024)
 
 - **Substantiation-Analysis** [Automatic Analysis of Substantiation in Scientific Peer Reviews](https://arxiv.org/abs/2311.11967v1) (Nov. 20, 2023)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.11967v1) [![Star](https://img.shields.io/github/stars/YanzhuGuo/SubstanReview.svg?style=social&label=Star)](https://github.com/YanzhuGuo/SubstanReview)
 
-- **PeerRead** [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635v1) (Apr. 25, 2018)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1804.09635v1) [![Star](https://img.shields.io/github/stars/allenai/PeerRead.svg?style=social&label=Star)](https://github.com/allenai/PeerRead)
-
-- **LLM-MetaReview** [Prompting LLMs to Compose Meta-Review Drafts from Peer-Review Narratives of Scholarly Manuscripts](https://arxiv.org/abs/2402.15589v1) (Feb. 23, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.15589v1)
-
-- **AI-Mediated Peer Review** [A Critical Examination of the Ethics of AI-Mediated Peer Review](https://arxiv.org/abs/2309.12356v1) (Sep. 2, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.12356v1)
-
-- **CGI2/ORSUM** [Scientific Opinion Summarization: Paper Meta-Review Generation Dataset, Methods, and Evaluation](https://arxiv.org/abs/2305.14647v3) (May. 24, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.14647v3) [![Star](https://img.shields.io/github/stars/mankeerat/orsum-meta-review-generation.svg?style=social&label=Star)](https://github.com/mankeerat/orsum-meta-review-generation)
-
 - **A Friend of a Foe?** [Artificial Intelligence in Scientific Writing: A Friend or a Foe?](https://pubmed.ncbi.nlm.nih.gov/37142479/) (Apr. 20, 2024)
 
 - **LLM-Review-Sys** [The Emergence of Large Language Models (LLM) as a Tool in Literature Reviews: An LLM Automated Systematic Review](https://arxiv.org/abs/2409.04600v1) (Sep. 6, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.04600v1)
-
-- **AgentReview** [AGENTREVIEW: Exploring Peer Review Dynamics with LLM Agents](https://arxiv.org/abs/2406.12708v2) (Jun. 18, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.12708v2) [![Star](https://img.shields.io/github/stars/ahren09/agentreview.svg?style=social&label=Star)](https://github.com/ahren09/agentreview)
-
-- **ReviewRobot** [ReviewRobot: Explainable Paper Review Generation Based on Knowledge Synthesis](https://arxiv.org/abs/2010.06119v3) (INLG(ACL)2020) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2010.06119v3) [![Star](https://img.shields.io/github/stars/EagleW/ReviewRobot.svg?style=social&label=Star)](https://github.com/EagleW/ReviewRobot)
-
-- **CocoSciSum** [CocoSciSum: A Scientific Summarization Toolkit with Compositional Controllability](https://aclanthology.org/2023.emnlp-demos.47) (EMNLP2023) [![Star](https://img.shields.io/github/stars/WING-NUS/SciAssist.svg?style=social&label=Star)](https://github.com/WING-NUS/SciAssist/tree/CocoSciSum)
-
-- **PeerSum** [Summarizing Multiple Documents with Conversational Structure for Meta-Review Generation](https://arxiv.org/abs/2305.01498v4) (May. 2, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.01498v4) [![Star](https://img.shields.io/github/stars/oaimli/peersum.svg?style=social&label=Star)](https://github.com/oaimli/peersum)
-
-- **MReD** [MReD: A Meta-Review Dataset for Structure-Controllable Text Generation](https://arxiv.org/abs/2110.07474v6) (Findings(ACL)2022) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2110.07474v6) [![Star](https://img.shields.io/github/stars/shen-chenhui/mred.svg?style=social&label=Star)](https://github.com/shen-chenhui/mred)
 
 - **Emerging Plagiarism** [Emerging Plagiarism in Peer-Review Evaluation Reports: A Tip of the Iceberg?](https://link.springer.com/article/10.1007/s11192-024-04960-1) (Feb. 29, 2024)
 
 - **GPT4-Review-Study** [GPT-4 is Slightly Helpful for Peer-Review Assistance: A Pilot Study](https://arxiv.org/abs/2307.05492) (Jun. 16, 2023)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2307.05492)
 
+- **PR4PR** [Peer Reviews of Peer Reviews: A Randomized Controlled Trial and Other Experiments](https://arxiv.org/abs/2311.09497) (Nov. 16, 2023) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.09497)
+
+#### Automated Peer Reviewing Generation
+
+- **LLM-MetaReview** [Prompting LLMs to Compose Meta-Review Drafts from Peer-Review Narratives of Scholarly Manuscripts](https://arxiv.org/abs/2402.15589v1) (Feb. 23, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.15589v1)
+
+- **SWIF2T** [Automated Focused Feedback Generation for Scientific Writing Assistance](https://arxiv.org/abs/2405.20477v2) (May. 30, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.20477v2) [![Star](https://img.shields.io/github/stars/ericchamoun/FocusedFeedbackGeneration.svg?style=social&label=Star)](https://github.com/ericchamoun/FocusedFeedbackGeneration)
+
+- **CGI2** [Scientific Opinion Summarization: Paper Meta-Review Generation Dataset, Methods, and Evaluation](https://arxiv.org/abs/2305.14647v3) (May. 24, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.14647v3) [![Star](https://img.shields.io/github/stars/mankeerat/orsum-meta-review-generation.svg?style=social&label=Star)](https://github.com/mankeerat/orsum-meta-review-generation)
+
+- **ReviewRobot** [ReviewRobot: Explainable Paper Review Generation Based on Knowledge Synthesis](https://arxiv.org/abs/2010.06119v3) (INLG(ACL)2020) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2010.06119v3) [![Star](https://img.shields.io/github/stars/EagleW/ReviewRobot.svg?style=social&label=Star)](https://github.com/EagleW/ReviewRobot)
+
+- **SEA** [Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis](https://arxiv.org/abs/2407.12857v2) (Jul. 9, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.12857v2)[![Star](https://img.shields.io/github/stars/ecnu-sea/SEA.svg?style=social&label=Star)](https://github.com/ecnu-sea/SEA)
+
+- **Reviewer2** [Reviewer2: Optimizing Review Generation Through Prompt Generation](https://arxiv.org/abs/2402.10886v1) (Feb. 16, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10886v1) [![Star](https://img.shields.io/github/stars/zhaolingao/reviewer2.svg?style=social&label=Star)](https://github.com/zhaolingao/reviewer2)
+
+- **MARG** [MARG: Multi-Agent Review Generation for Scientific Papers](https://arxiv.org/abs/2401.04259v1) (Jan. 8, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.04259v1) [![Star](https://img.shields.io/github/stars/allenai/marg-reviewer.svg?style=social&label=Star)](https://github.com/allenai/marg-reviewer)
+
+#### LLM-assisted Peer Reviewing Workflows
+
+- **ChatGPT-Journal-Reviews** [ChatGPT and the Future of Journal Reviews](https://pmc.ncbi.nlm.nih.gov/articles/PMC10524821/#:~:text=Contextual%20Understanding%20and%20Expertise%3A%20ChatGPT,accuracy%20of%20complex%20research%20findings.) (Sep. 29, 2023)
+
+- **HumanInTheLoop-AI-Reviewing** [Human-in-the-loop AI Reviewing: Feasibility, Opportunities, and Risks](https://aisel.aisnet.org/jais/vol25/iss1/7/) (Jan. 1, 2024)
+
+- **AI-Mediated Peer Review** [A Critical Examination of the Ethics of AI-Mediated Peer Review](https://arxiv.org/abs/2309.12356v1) (Sep. 2, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.12356v1)
+
+- **AgentReview** [AGENTREVIEW: Exploring Peer Review Dynamics with LLM Agents](https://arxiv.org/abs/2406.12708v2) (Jun. 18, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.12708v2) [![Star](https://img.shields.io/github/stars/ahren09/agentreview.svg?style=social&label=Star)](https://github.com/ahren09/agentreview)
+
+- **PaperMage** [PaperMage: A Unified Toolkit for Processing, Representing, and Manipulating Visually-Rich Scientific Documents](https://aclanthology.org/2023.emnlp-demo.45.pdf) (ACL2023) [![Star](https://img.shields.io/github/stars/allenai/papermage.svg?style=social&label=Star)](https://github.com/allenai/papermage)
+
+- **CocoSciSum** [CocoSciSum: A Scientific Summarization Toolkit with Compositional Controllability](https://aclanthology.org/2023.emnlp-demos.47) (EMNLP2023) [![Star](https://img.shields.io/github/stars/WING-NUS/SciAssist.svg?style=social&label=Star)](https://github.com/WING-NUS/SciAssist/tree/CocoSciSum)
+- **ReviewerGPT** [ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing](https://arxiv.org/abs/2306.00622v1) (Jun. 1, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2306.00622v1) [![Star](https://img.shields.io/github/stars/niharshah/ReviewerGPT2023.svg?style=social&label=Star)](https://github.com/niharshah/ReviewerGPT2023)
+
+- **PaperQA2** [Language agents achieve superhuman synthesis of scientific knowledge](https://arxiv.org/abs/2409.13740) (Sep. 10, 2023) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.13740)[![Star](https://img.shields.io/github/stars/future-house/paper-qa.svg?style=social&label=Star)](https://github.com/future-house/paper-qa)
+
 - **ReviewFlow** [ReviewFlow: Intelligent Scaffolding to Support Academic Peer Reviewing](https://arxiv.org/abs/2402.03530) (Feb. 5, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.03530)
 
 - **CARE** [CARE: Collaborative AI-Assisted Reading Environment](https://arxiv.org/abs/2302.12611v1) (Feb. 24, 2023) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2302.12611v1) [![Star](https://img.shields.io/github/stars/UKPLab/CARE.svg?style=social&label=Star)](https://github.com/UKPLab/CARE)
 
-- **PaperMage** [PaperMage: A Unified Toolkit for Processing, Representing, and Manipulating Visually-Rich Scientific Documents](https://aclanthology.org/2023.emnlp-demo.45.pdf) (ACL2023) [![Star](https://img.shields.io/github/stars/allenai/papermage.svg?style=social&label=Star)](https://github.com/allenai/papermage)
-
-- **PR4PR** [Peer Reviews of Peer Reviews: A Randomized Controlled Trial and Other Experiments](https://arxiv.org/abs/2311.09497) (Nov. 16, 2023) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.09497)
+#### Benchmarks
 
 - **MOPRD** [MOPRD: A Multidisciplinary Open Peer Review Dataset](https://arxiv.org/abs/2212.04972v2) (Dec. 9, 2022)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2212.04972v2)
 
+- **NLPeer** [NLPeer: A Unified Resource for the Computational Study of Peer Review](https://arxiv.org/abs/2211.06651v2) (Nov. 12, 2022) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2211.06651v2) [![Star](https://img.shields.io/github/stars/ukplab/nlpeer.svg?style=social&label=Star)](https://github.com/ukplab/nlpeer)
+
+- **MReD** [MReD: A Meta-Review Dataset for Structure-Controllable Text Generation](https://arxiv.org/abs/2110.07474v6) (Findings(ACL)2022) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2110.07474v6) [![Star](https://img.shields.io/github/stars/shen-chenhui/mred.svg?style=social&label=Star)](https://github.com/shen-chenhui/mred)
+
+- **PeerSum** [Summarizing Multiple Documents with Conversational Structure for Meta-Review Generation](https://arxiv.org/abs/2305.01498v4) (May. 2, 2023)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.01498v4) [![Star](https://img.shields.io/github/stars/oaimli/peersum.svg?style=social&label=Star)](https://github.com/oaimli/peersum)
+
+- **ORSUM** [Scientific Opinion Summarization: Paper Meta-Review Generation Dataset, Methods, and Evaluation](https://arxiv.org/abs/2305.14647v3) (May. 24, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.14647v3) [![Star](https://img.shields.io/github/stars/mankeerat/orsum-meta-review-generation.svg?style=social&label=Star)](https://github.com/mankeerat/orsum-meta-review-generation)
+
 - **ASAP-Review** [Can We Automate Scientific Reviewing?](https://arxiv.org/abs/2102.00176v1) (Jan. 30, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2102.00176v1) [![Star](https://img.shields.io/github/stars/neulab/ReviewAdvisor.svg?style=social&label=Star)](https://github.com/neulab/ReviewAdvisor)
+
+- **Reviewer2** [Reviewer2: Optimizing Review Generation Through Prompt Generation](https://arxiv.org/abs/2402.10886v1) (Feb. 16, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10886v1) [![Star](https://img.shields.io/github/stars/zhaolingao/reviewer2.svg?style=social&label=Star)](https://github.com/zhaolingao/reviewer2)
+- **PeerRead** [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635v1) (Apr. 25, 2018)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1804.09635v1) [![Star](https://img.shields.io/github/stars/allenai/PeerRead.svg?style=social&label=Star)](https://github.com/allenai/PeerRead)
+
+- **CritiqueReview** [LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing](https://arxiv.org/abs/2406.16253) (Jun. 24, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.16253)[![Star](https://img.shields.io/github/stars/jiangshdd/reviewcritique.svg?style=social&label=Star)](https://github.com/jiangshdd/reviewcritique)
+
+- **RR-MCQ** [Is LLM a Reliable Reviewer? A Comprehensive Evaluation of LLM on Automatic Paper Reviewing Tasks](https://aclanthology.org/2024.lrec-main.816/) (ACL2024)
