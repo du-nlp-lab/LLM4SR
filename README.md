@@ -34,8 +34,57 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 ### LLMs for Scientific Hypothesis Discovery
 
+- **SciMON** [SciMON: Scientific Inspiration Machines Optimized for Novelty](https://arxiv.org/abs/2305.14259) (May. 23, 2023; ACL 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.14259)
+
+- **MOOSE** [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery](https://arxiv.org/abs/2309.02726) (Sep. 6, 2023; ACL 2024; ICML AI4Science Workshop Best Poster Award)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.02726)
+
+- **MCR** [Monte Carlo Thought Search: Large Language Model Querying for Complex Scientific Reasoning in Catalyst Design](https://arxiv.org/abs/2310.14420) (Oct. 22, 2023; EMNLP 2023)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.14420)
+
+- [Large language models are zero shot hypothesis proposers](https://arxiv.org/abs/2311.05965) (Nov. 10, 2023; COLM 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.05965)
+
+- **FunSearch** [Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6) (Dec. 14, 2023; Nature)
+
+- **ChemReasoner** [ChemReasoner: Heuristic Search over a Large Language Model's Knowledge Space using Quantum-Chemical Feedback](https://arxiv.org/abs/2402.10980) (Feb. 15, 2024; ICML 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10980)
+
+- **SGA** [LLM and Simulation as Bilevel Optimizers: A New Paradigm to Advance Physical Scientific Discovery](https://arxiv.org/abs/2405.09783) (May. 16, 2024; ICML 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.09783)
+
+- **AIScientist** [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292) (Aug. 12, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.06292)
+
+- **MLR-Copilot** [MLR-Copilot: Autonomous Machine Learning Research based on Large Language Models Agents](https://arxiv.org/abs/2408.14033) (Aug. 26, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.14033)
+
+- **IGA** [Can llms generate novel research ideas? a large-scale human study with 100+ nlp researchers](https://arxiv.org/abs/2409.04109) (Sep. 6, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.04109)
+
+- **SciAgents** [SciAgents: Automating scientific discovery through multi-agent intelligent graph reasoning](https://arxiv.org/abs/2409.05556) (Sep. 9, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.05556)
+
+- **Scideator** [Scideator: Human-LLM Scientific Idea Generation Grounded in Research-Paper Facet Recombination](https://arxiv.org/abs/2409.14634) (Sep. 23, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.14634)
+
+
+- **MOOSE-Chem** [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses](https://arxiv.org/abs/2410.07076) (Oct. 9, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.07076)
+
+- **VirSci** [Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation](https://arxiv.org/abs/2410.09403) (Oct. 12, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.09403)
+
+- **CoI** [Chain of Ideas: Revolutionizing Research in Novel Idea Development with LLM Agents](https://arxiv.org/abs/2410.13185) (Oct. 17, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.13185)
+
+- **Nova** [Nova: An Iterative Planning and Search Approach to Enhance Novelty and Diversity of LLM Generated Ideas](https://arxiv.org/abs/2410.14255) (Oct. 18, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.14255)
+
 - [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930) (Apr. 30, 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.18930)
+  
 
 ### LLMs for Experiment Planning and Implementation
 
