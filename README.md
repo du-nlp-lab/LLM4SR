@@ -33,6 +33,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
   - [LLMs for Scientific Paper Writing](#llms-for-scientific-paper-writing)
   - [LLMs for Peer Reviewing](#llms-for-peer-reviewing)
     - [Automated Peer Reviewing Generation](#automated-peer-reviewing-generation)
+      - [Peer Reviewing Tools](#peer-reviewing-tools)
     - [LLM-assisted Peer Reviewing Workflows](#llm-assisted-peer-reviewing-workflows)
     - [Benchmarks](#benchmarks)
 
@@ -553,6 +554,17 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 - **Reviewer2** [Reviewer2: Optimizing Review Generation Through Prompt Generation](https://arxiv.org/abs/2402.10886v1) (Feb. 16, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10886v1) [![Star](https://img.shields.io/github/stars/zhaolingao/reviewer2.svg?style=social&label=Star)](https://github.com/zhaolingao/reviewer2)
 
 - **MARG** [MARG: Multi-Agent Review Generation for Scientific Papers](https://arxiv.org/abs/2401.04259v1) (Jan. 8, 2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.04259v1) [![Star](https://img.shields.io/github/stars/allenai/marg-reviewer.svg?style=social&label=Star)](https://github.com/allenai/marg-reviewer)
+
+##### Peer Reviewing Tools
+
+- [ScholarGPT](https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt)
+- [SciSpace](https://typeset.io/)
+- [Scite](https://scite.ai/)
+- [Semantic Scholar](https://www.semanticscholar.org/)
+- [Elicit](https://elicit.com/)
+- [Perplexity](https://www.perplexity.ai/)
+- [Consensus](https://consensus.app/)
+- [Scholarcy](https://www.scholarcy.com/)
 
 #### LLM-assisted Peer Reviewing Workflows
 
