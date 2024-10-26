@@ -37,7 +37,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 - **SciMON** [SciMON: Scientific Inspiration Machines Optimized for Novelty](https://arxiv.org/abs/2305.14259) (May. 23, 2023; ACL 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.14259)
 
-- **MOOSE** [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery](https://arxiv.org/abs/2309.02726) (Sep. 6, 2023; ACL 2024; ICML AI4Science Workshop Best Poster Award)
+- **MOOSE** [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery](https://arxiv.org/abs/2309.02726) (Sep. 6, 2023; ICML AI4Science Workshop Best Poster Award; ACL 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.02726)
 
 - **MCR** [Monte Carlo Thought Search: Large Language Model Querying for Complex Scientific Reasoning in Catalyst Design](https://arxiv.org/abs/2310.14420) (Oct. 22, 2023; EMNLP 2023)
