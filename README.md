@@ -25,7 +25,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 #### :star: If you find this repo useful, please star it!!! -->
 
-# Table of Contents <!-- omit in toc -->
+## Table of Contents <!-- omit in toc -->
 
   - [LLMs for Scientific Hypothesis Discovery](#llms-for-scientific-hypothesis-discovery)
   - [LLMs for Experiment Planning and Implementation](#llms-for-experiment-planning-and-implementation)
