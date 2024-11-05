@@ -7,6 +7,7 @@
 </p> -->
 
 This is a repository for organizing papres, codes and other resources related to large language models for the scientific research process.
+![schematic_overview](https://github.com/user-attachments/assets/a40083b7-b3a6-4955-9ee1-1a2b3294903d)
 
 <!-- Hallucination in LLM usually refers to the phenomenon that the generated content is nonsensical or unfaithful to the provided source content, such as violation of input instruction, or containing factual errors, etc.
 In the context of MLLM, hallucination refers to the phenomenon that the generated text is semantically coherent but inconsistent with the given visual content.
