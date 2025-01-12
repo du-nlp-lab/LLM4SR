@@ -201,7 +201,7 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.cambridge.org/core/journals/environmental-data-science/article/opening-a-conversation-on-responsible-environmental-data-science-in-the-age-of-large-language-models/95FD09526541A19436F3A18ADE332953) 
 
 - **DSBench** [DSBench: How Far Are Data Science Agents to Becoming Data Science Experts?](https://arxiv.org/abs/2409.07703) (Sep. 12, 2024)
-  [![arXiv](https://arxiv.org/abs/2409.07703)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.07703) 
 
 - **AutoGen** [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework](https://doi.org/10.48550/ARXIV.2308.08155) (Oct. 03, 2023)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://doi.org/10.48550/ARXIV.2308.08155)
