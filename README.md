@@ -1,4 +1,5 @@
-# [LLM4SR: A Survey on Large Language Models for Scientific Research](https://arxiv.org)
+# [LLM4SR: A Survey on Large Language Models for Scientific Research](https://arxiv.org/abs/2501.04306)
+Authors: [Ziming Luo*](https://zimingluo.github.io/), [Zonglin Yang*](https://zongliny.github.io/), [Zexin Xu](https://github.com/du-nlp-lab/LLM4SR/edit/main/README.md), [Wei Yang](https://github.com/du-nlp-lab/LLM4SR/edit/main/README.md), [Xinya Du](https://xinyadu.github.io/)
 
 <!-- ### :star: News! We have released a comprehensive survey. -->
 
@@ -10,16 +11,11 @@ This is a repository for organizing papres, codes and other resources related to
 <p align="center">
   <img src="assets/schematic_overview.png" alt="TAX" style="display: block; margin: 0 auto;" />
 </p>
-<!-- Hallucination in LLM usually refers to the phenomenon that the generated content is nonsensical or unfaithful to the provided source content, such as violation of input instruction, or containing factual errors, etc.
-In the context of MLLM, hallucination refers to the phenomenon that the generated text is semantically coherent but inconsistent with the given visual content.
-The community has been constantly making progress on analyzing, detecting, and mitigating hallucination in MLLM.
 
 #### :books: How to read?
-The main contribution of a specific paper is proposing either a new hallucination benchmark (metric) or proposing a hallucination mitigation method.
-The analysis and detection of hallucination are only part of the whole paper, serving as the basis of evaluation and mitigation.
-Therefore, we divide the papers into two categories: **hallucination evaluation & analysis ** and **hallucination mitigation**.
-In each category, the paper are listd in an order **from new to old**.
-Note that there might be some duplicated papers in the two categories. Those papers contain both evaluation benchmark and mitigation method.
+Schematic overview of the scientific research pipeline covered in this survey. This cyclical process begins with scientific hypothesis discovery, followed by experiment planning and implementation, paper writing, and finally peer reviewing of papers. The experiment planning stage consists of optimizing experiment
+design and executing research tasks, while the paper writing stage consists of citation text generation, related work generation, and drafting & writing.
+Those papers contain both task-specific methods and evaluation benchmarks. Note that there might be some duplicated papers in the two categories.
 
 #### :high_brightness: This project is still on-going, pull requests are welcomed!!
 
@@ -29,14 +25,25 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 ## Table of Contents <!-- omit in toc -->
 
-- [LLMs for Scientific Hypothesis Discovery](#llms-for-scientific-hypothesis-discovery)
-- [LLMs for Experiment Planning and Implementation](#llms-for-experiment-planning-and-implementation)
-- [LLMs for Scientific Paper Writing](#llms-for-scientific-paper-writing)
-- [LLMs for Peer Reviewing](#llms-for-peer-reviewing)
-  - [Automated Peer Reviewing Generation](#automated-peer-reviewing-generation)
-    - [Peer Reviewing Tools](#peer-reviewing-tools)
-  - [LLM-assisted Peer Reviewing Workflows](#llm-assisted-peer-reviewing-workflows)
-  - [Benchmarks](#benchmarks)
+  * [LLMs for Scientific Hypothesis Discovery](#llms-for-scientific-hypothesis-discovery)
+  * [LLMs for Experiment Planning and Implementation](#llms-for-experiment-planning-and-implementation)
+    - [Optimizing Experimental Design](#optimizing-experimental-design)
+    + [Automating Experimental Processes](#automating-experimental-processes)
+      - [Data Preparation](#data-preparation)
+      - [Experiment Execution and Workflow Automation](#experiment-execution-and-workflow-automation)
+      - [Data Analysis and Interpretation](#data-analysis-and-interpretation)
+    + [Benchmarks](#benchmarks)
+  * [LLMs for Scientific Paper Writing](#llms-for-scientific-paper-writing)
+    + [Citation Text Generation](#citation-text-generation)
+    + [Related Work Generation](#related-work-generation)
+    + [Drafting andWriting](#drafting-andwriting)
+    + [Benchmarks](#benchmarks-1)
+  * [LLMs for Peer Reviewing](#llms-for-peer-reviewing)
+    + [Automated Peer Reviewing Generation](#automated-peer-reviewing-generation)
+      - [Peer Reviewing Tools](#peer-reviewing-tools)
+    + [LLM-assisted Peer Reviewing Workflows](#llm-assisted-peer-reviewing-workflows)
+    + [Benchmarks](#benchmarks-2)
+
 
 ## LLMs for Scientific Hypothesis Discovery
 
@@ -91,407 +98,244 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 ---
 ## LLMs for Experiment Planning and Implementation
 
-## Optimizing Experimental Design
+### Optimizing Experimental Design
 
 - **Coscientist** [Autonomous chemical research with large language models](https://doi.org/10.1038/s41586-023-06792-0) (Dec. 20, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.16597)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://doi.org/10.1038/s41586-023-06792-0)
   
 - **ChemCrow** [Augmenting large language models with chemistry tools](https://doi.org/10.1038/S42256-024-00832-8[) (May. 08, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.13612)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://doi.org/10.1038/S42256-024-00832-8[)
   
 - **CRISPR-GPT** [CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments](https://doi.org/10.48550/ARXIV.2404.18021) (Arp. 27, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2409.09748)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://doi.org/10.48550/ARXIV.2404.18021)
   
 - **Navigating Complexity** [Navigating Complexity: Orchestrated Problem Solving with Multi-Agent LLMs](https://arxiv.org/abs/2402.16713) (Jul. 10, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://web3.arxiv.org/abs/2409.09318)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.16713)
   
 - **HuggingGPT** [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/abs/2303.17580) (Dec. 03, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.01151)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.17580)
   
 - **AutoGen** [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework](https://doi.org/10.48550/ARXIV.2308.08155) (Oct. 03, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.00238)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://doi.org/10.48550/ARXIV.2308.08155)
   
 - **LLM-RDF** [An automatic end-to-end chemical synthesis development platform powered by large language models](https://www.nature.com/articles/s41467-024-54457-x) (Nov. 23, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.09429)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.nature.com/articles/s41467-024-54457-x) 
   
 - [Simulating Expert Discussions with Multi-agent for Enhanced Scientific Problem Solving](https://aclanthology.org/2024.sdp-1.23/) (Jan. 23, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.01355)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2024.sdp-1.23/)
 
 ### Automating Experimental Processes
 
 #### Data Preparation
 
 - **Data-Juicer** [Data-Juicer: A One-Stop Data Processing System for Large Language Models](https://arxiv.org/abs/2309.02033) (Dec. 20, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.16338)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.02033)
   
 - **Jellyfish** [Jellyfish: A Large Language Model for Data Preprocessing](https://arxiv.org/abs/2312.01678) (Oct. 28, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.17115)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.01678)
   
 - [Can Large Language Models Transform Computational Social Science?](hhttps://arxiv.org/abs/2305.03514) (Feb. 26, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.14492v1)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](hhttps://arxiv.org/abs/2305.03514) 
   
 - **CAAFE** [Large Language Models for Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering](https://arxiv.org/abs/2305.03403) (Sep. 28, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.14056)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.03403)
   
 - [Are you in a Masquerade? Exploring the Behavior and Impact of Large Language Model Driven Social Bots in Online Social Networks.](https://arxiv.org/abs/2307.10337) (Jun. 19, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.12663v1)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2307.10337)
   
-- Training Socially Aligned Language Models in Simulated Human Society](https://arxiv.org/abs/2305.16960) (Oct. 28, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.11288)
+- [Training Socially Aligned Language Models in Simulated Human Society](https://arxiv.org/abs/2305.16960) (Oct. 28, 2023)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.16960)
   
-- **AutoHallusion** [AUTOHALLUSION: Automatic Generation of Hallucination Benchmarks for Vision-Language Models](https://arxiv.org/abs/2406.10900v1) (Jun. 16, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.10900v1)
-
 #### Experiment Execution and Workflow Automation
 
 - **ESM-1b** [Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://www.pnas.org/doi/full/10.1073/pnas.2016239118) (Dec. 16, 2020)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.19186)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.pnas.org/doi/full/10.1073/pnas.2016239118) 
   
 - **ESM-2** [Evolutionary-scale prediction of atomic-level protein structure with a language model](https://www.science.org/doi/10.1126/science.ade2574) (Mar. 16, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.10185)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.science.org/doi/10.1126/science.ade2574)
   
 - [Controllable protein design with language models](https://arxiv.org/abs/2201.07338) (Aug. 22, 2022)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.05256)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2201.07338)
   
 - **PALM-H3** [De novo generation of SARS-CoV-2 antibody CDRH3 with a pre-trained generative large
   language model](https://www.nature.com/articles/s41467-024-50903-y) (Aug. 10, 2024
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.13874)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.nature.com/articles/s41467-024-50903-y)
   
-- **Coscientist ** [Autonomous chemical research with large language models](https://doi.org/10.1038/s41586-023-06792-0) (Dec. 20, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.16597)
+- **Coscientist** [Autonomous chemical research with large language models](https://doi.org/10.1038/s41586-023-06792-0) (Dec. 20, 2023)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://doi.org/10.1038/s41586-023-06792-0)
   
-- **ChemCrow** [Augmenting large language models with chemistry tools](https://doi.org/10.1038/S42256-024-00832-8[) (May. 08, 2024)
-  ![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)
+- **ChemCrow** [Augmenting large language models with chemistry tools](https://doi.org/10.1038/S42256-024-00832-8) (May. 08, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://doi.org/10.1038/S42256-024-00832-8)
+  
 - [Efficient Evolutionary Search Over Chemical Space with Large Language Models](https://arxiv.org/abs/2406.16976) (Jul. 02 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.16976)
 
 - **ChatDrug** [Conversational Drug Editing Using Retrieval and Domain Feedback](https://arxiv.org/abs/2305.18090) (May. 29, 2023)
-  ![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)
+  ![arXiv](https://arxiv.org/abs/2305.18090)
   
 - **DrugAssist** [DrugAssist: A Large Language Model for Molecule Optimization](https://arxiv.org/abs/2401.10334) (Dec. 28, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.15952)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.10334)
   
 - [Bayesian Optimization of Catalysts With In-context Learning](https://arxiv.org/abs/2304.05341) (Apr. 18, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.11497)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2304.05341)
   
 - [Monte Carlo Thought Search: Large Language Model Querying for Complex Scientific Reasoning in Catalyst Design](https://arxiv.org/abs/2310.14420) (Oct. 22, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.11116)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.14420) 
   
 - **ChemReasoner** [CHEMREASONER: Heuristic Search over a Large Language Model’s Knowledge Space using Quantum-Chemical Feedback](https://arxiv.org/abs/2402.10980) (Dec. 09, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.08542)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10980) 
 
 #### Data Analysis and Interpretation
 
 - [Automated Statistical Model Discovery with Language Models](https://arxiv.org/abs/2402.17879) (Jun. 22, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.15721)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.17879) 
 
 - **MentaLLaMA** [MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models](https://arxiv.org/abs/2309.13567) (Feb. 04, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.14683v1)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.13567)
 
 - [Can Large Language Models Serve as Data Analysts? A Multi-Agent Assisted Approach for
   Qualitative Data Analysis](https://arxiv.org/abs/2402.01386) (Feb. 02, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.13220)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.01386)
 
 - [Opening a conversation on responsible environmental data science in the age of large language models](https://www.cambridge.org/core/journals/environmental-data-science/article/opening-a-conversation-on-responsible-environmental-data-science-in-the-age-of-large-language-models/95FD09526541A19436F3A18ADE332953) (May. 09, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.03190)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.cambridge.org/core/journals/environmental-data-science/article/opening-a-conversation-on-responsible-environmental-data-science-in-the-age-of-large-language-models/95FD09526541A19436F3A18ADE332953) 
 
 - **DSBench** [DSBench: How Far Are Data Science Agents to Becoming Data Science Experts?](https://arxiv.org/abs/2409.07703) (Sep. 12, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.09717)
+  [![arXiv](https://arxiv.org/abs/2409.07703)
 
 - **AutoGen** [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework](https://doi.org/10.48550/ARXIV.2308.08155) (Oct. 03, 2023)
-
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.03757)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://doi.org/10.48550/ARXIV.2308.08155)
 
 - [LLM-in-the-loop: Leveraging Large Language Model for Thematic Analysis](https://aclanthology.org/2023.findings-emnlp.669/) (Oct. 23, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.06209)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2023.findings-emnlp.669/)
 
 ### Benchmarks
 
 - **SUPER** [SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories](https://arxiv.org/abs/2409.07440) (Sep. 11, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.03631)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)]((https://arxiv.org/abs/2409.07440)
   
 - **MLE-bench** [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/abs/2410.07095) (Dec. 20, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.01701)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.07095)
   
 - **ScienceAgentBench** [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/abs/2410.05080) (Oct. 07, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.02219)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.05080) 
   
 - **Spider2-V** [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956) (Jul. 15, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.01779v2)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.10956)
   
 - **MLAgentBench** [MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation](https://arxiv.org/abs/2310.03302) (Oct. 05, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.14566)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.03302)
   
 - **DiscoveryWorld** [DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents](https://arxiv.org/abs/2406.06769) (Jun. 10, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.16479)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.06769) 
   
 - **DSBench** [DSBench: How Far Are Data Science Agents to Becoming Data Science Experts?](https://arxiv.org/abs/2409.07703) (Sep. 12, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.09717)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.07703)
   
 - **DS-1000** [DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation](https://arxiv.org/abs/2211.11501) (Nov. 18, 2022)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.07397)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2211.11501)
   
 - **LAB-Bench** [LAB-Bench: Measuring Capabilities of Language Models for Biology Research](https://arxiv.org/abs/2407.10362) (Jul. 14, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.03287)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.10362)
   
 - **AgentBench** [AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688) (Aug. 07, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.01477)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2308.03688)
   
 - **TaskBench** [TaskBench: Benchmarking Large Language Models for Task Automation](https://arxiv.org/abs/2311.18760) (Nov. 30, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2308.15126)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.18760) 
   
 - **CORE-Bench** [CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark](https://arxiv.org/abs/2409.11363) (Sep. 17, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.05338)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.11363)
 
 ---
 
 ## LLMs for Scientific Paper Writing
 
-- **MemVR** [Look Twice Before You Answer: Memory-Space Visual Retracing for Hallucination Mitigation in Multimodal Large Language Models](https://arxiv.org/abs/2410.03577) (Oct. 7, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.03577)
-  [![Star](https://img.shields.io/github/stars/1zhou-Wang/MemVR.svg?style=social&label=Star)](https://github.com/1zhou-Wang/MemVR)
-- **HELPD** [Mitigating Hallucination of LVLMs by Hierarchical Feedback Learning with Vision-enhanced Penalty Decoding](https://www.arxiv.org/abs/2409.20429) (Sep. 30, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2409.20429)
-
-- **Dentist** [A Unified Hallucination Mitigation Framework for Large Vision-Language Models](https://www.arxiv.org/abs/2409.16494) (Sep. 22, TMLR, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2409.16494)
-
-- **PACU** [Effectively Enhancing Vision Language Large Models by Prompt Augmentation and Caption Utilization](https://arxiv.org/abs/2409.14484) (Sep. 22, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.14484)
-
-- **RBD** [Mitigating Hallucination in Visual-Language Models via Re-Balancing Contrastive Decoding](https://arxiv.org/abs/2409.06485) (Sep. 10, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.06485)
-
-- **MVP** [Look, Compare, Decide: Alleviating Hallucination in Large Vision-Language Models via Multi-View Multi-Path Reasoning](https://arxiv.org/abs/2408.17150) (Aug. 30, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.17150)
-  [![Star](https://img.shields.io/github/stars/GasolSun36/MVP.svg?style=social&label=Star)](https://github.com/GasolSun36/MVP)
-
-- **ConVis** [Contrastive Decoding with Hallucination Visualization for Mitigating Hallucinations in Multimodal Large Language Models](https://arxiv.org/abs/2408.13906) (Aug. 25, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.13906)
-  [![Star](https://img.shields.io/github/stars/yejipark-m/ConVis.svg?style=social&label=Star)](https://github.com/yejipark-m/ConVis)
-
-- **CLIP-DPO** [Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs](https://www.arxiv.org/abs/2408.10433) (Aug. 19, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2408.10433)
-
-- **SID** [Self-Introspective Decoding: Alleviating Hallucinations for Large Vision-Language Models](https://www.arxiv.org/abs/2408.02032) (Aug. 04, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2408.02032)
-  [![Star](https://img.shields.io/github/stars/huofushuo/SID.svg?style=social&label=Star)](https://github.com/huofushuo/SID)
-
-- **ARA** [Alleviating Hallucination in Large Vision-Language Models with Active Retrieval Augmentation](https://arxiv.org/abs/2408.00555) (Aug. 01, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.00555)
-
-- **PAI** [Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs](https://arxiv.org/abs/2407.21771) (Jul. 31, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.21771)
-  [![Star](https://img.shields.io/github/stars/LALBJ/PAI.svg?style=social&label=Star)](https://github.com/LALBJ/PAI)
-
-- **MAD** [Interpreting and Mitigating Hallucination in MLLMs through Multi-agent Debate](https://arxiv.org/abs/2407.20505) (Jul. 30, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.20505)
-  [![Star](https://img.shields.io/github/stars/LZzz2000/HalluciMAD.svg?style=social&label=Star)](https://github.com/LZzz2000/HalluciMAD)
-
-- **VACoDe** [VACoDe: Visual Augmented Contrastive Decoding](https://www.arxiv.org/abs/2408.05337) (Jul. 26, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2408.05337)
-
-- **REVERIE** [Reflective Instruction Tuning: Mitigating Hallucinations in Large Vision-Language Models](https://arxiv.org/abs/2407.11422) (Jul. 16, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.11422)
-  [![Star](https://img.shields.io/github/stars/zjr2000/REVERIE.svg?style=social&label=Star)](https://github.com/zjr2000/REVERIE)
-
-- **BACON** [BACON: Supercharge Your VLM with Bag-of-Concept Graph to Mitigate Hallucinations](https://arxiv.org/abs/2407.03314) (Jul. 03, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.03314)
-  [![Star](https://img.shields.io/github/stars/ztyang23/BACON.svg?style=social&label=Star)](https://github.com/ztyang23/BACON)
-
-- **Pelican** [Pelican: Correcting Hallucination in Vision-LLMs via Claim Decomposition and Program of Thought Verification](https://arxiv.org/abs/2407.02352) (Jul. 02, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.02352)
-
-- **MMHalSnowball** [Investigating and Mitigating the Multimodal Hallucination Snowballing in Large Vision-Language Models](https://www.arxiv.org/abs/2407.00569) (Jun. 30, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2407.00569)
-  [![Star](https://img.shields.io/github/stars/whongzhong/MMHalSnowball.svg?style=social&label=Star)](https://github.com/whongzhong/MMHalSnowball)
-
-- **AGLA** [AGLA: Mitigating Object Hallucinations in Large Vision-Language Models with Assembly of Global and Local Attention](https://arxiv.org/abs/2406.12718) (Jun. 18, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.12718)
-  [![Star](https://img.shields.io/github/stars/Lackel/AGLA.svg?style=social&label=Star)](https://github.com/Lackel/AGLA)
-
-- **MedThink** [MedThink: Inducing Medical Large-scale Visual Language Models to Hallucinate Less by Thinking More](https://arxiv.org/abs/2406.11451) (Jun. 17, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.11451)
-
-- **TUNA** [Reminding Multimodal Large Language Models of Object-aware Knowledge with Retrieved Tags](https://arxiv.org/abs/2406.10839) (Jun. 16, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.10839)
-
-- **CODE** [CODE: Contrasting Self-generated Description to Combat Hallucination in Large Multi-modal Models](https://arxiv.org/abs/2406.01920v1) (Jun. 04, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.01920v1)
-
-- **NoiseBoost** [NoiseBoost: Alleviating Hallucination with Noise Perturbation for Multimodal Large Language Models](https://arxiv.org/abs/2405.20081) (May. 30, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.20081)
-
-- **RITUAL** [RITUAL: Random Image Transformations as a Universal Anti-hallucination Lever in LVLMs](https://arxiv.org/abs/2405.17821) (May. 28, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.17821)
-  [![Star](https://img.shields.io/github/stars/sangminwoo/RITUAL.svg?style=social&label=Star)](https://github.com/sangminwoo/RITUAL)
-
-- **HALVA** [Mitigating Object Hallucination via Data Augmented Contrastive Tuning](https://www.arxiv.org/abs/2405.18654) (May. 28, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2405.18654)
-
-- **AvisC** [Don't Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models](https://arxiv.org/abs/2405.17820) (May. 28, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.17820)
-  [![Star](https://img.shields.io/github/stars/sangminwoo/AvisC.svg?style=social&label=Star)](https://github.com/sangminwoo/AvisC)
-
-- **RLAIF-V** [RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness](https://arxiv.org/abs/2405.17220) (May. 27, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.17220)
-  [![Star](https://img.shields.io/github/stars/RLHF-V/RLAIF-V.svg?style=social&label=Star)](https://github.com/RLHF-V/RLAIF-V)
-
-- **HIO** [Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization](https://arxiv.org/abs/2405.15356v1) (May. 24, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.15356v1)
-
-- **VDGD** [VDGD: Mitigating LVLM Hallucinations in Cognitive Prompts by Bridging the Visual Perception Gap](https://arxiv.org/abs/2405.15683) (May. 24, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.15683)
-
-- **VFC** [Visual Fact Checker: Enabling High-Fidelity Detailed Caption Generation](https://arxiv.org/abs/2404.19752) (Apr. 30, 2024 (CVPR 2024))
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.19752)
-
-- **SoM-LLaVA** [List Items One by One: A New Data Source and Learning Paradigm for Multimodal LLMs](https://arxiv.org/abs/2404.16375) (Apr. 25, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.16375)
-  [![Star](https://img.shields.io/github/stars/zzxslp/SoM-LLaVA.svg?style=social&label=Star)](https://github.com/zzxslp/SoM-LLaVA)
-
-- **Cantor** [Cantor: Inspiring Multimodal Chain-of-Thought of MLLM](https://arxiv.org/abs/2404.16033) (Apr. 24, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.16033)
-  [![Star](https://img.shields.io/github/stars/BillChan226/HALC.svg?style=social&label=Star)](https://github.com/ggg0919/cantor)
-
-- **HSA-DPO** [Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback](https://arxiv.org/abs/2404.14233v1) (Apr. 22, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.14233v1)
-
-- **FACT** [Fact :Teaching MLLMs with Faithful, Concise and Transferable Rationales](https://arxiv.org/abs/2404.11129) (Apr. 17, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.11129)
-
-- **SeVa** [Self-Supervised Visual Preference Alignment](https://arxiv.org/abs/2404.10501) (Apr. 16, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.10501)
-
-- **DFTG** [Prescribing the Right Remedy: Mitigating Hallucinations in Large Vision-Language Models via Targeted Instruction Tuning](https://arxiv.org/abs/2404.10332) (Apr. 16, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.10332)
-
-- **FGAIF** [FGAIF: Aligning Large Vision-Language Models with Fine-grained AI Feedback](https://arxiv.org/abs/2404.05046) (Apr. 07, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.05046)
-
-- **ICD** [Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding](https://arxiv.org/abs/2403.18715) (ACL 2024, Mar. 27, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.18715)
-
-- **ESREAL** [Exploiting Semantic Reconstruction to Mitigate Hallucinations in Vision-Language Models](https://arxiv.org/abs/2403.16167) (Mar. 24, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.16167)
-
-- **Pensieve** [Pensieve: Retrospect-then-Compare Mitigates Visual Hallucination](https://arxiv.org/abs/2403.14401) (Mar. 21, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.14401)
-
-- **M3ID** [Multi-Modal Hallucination Control by Visual Information Grounding](https://arxiv.org/abs/2403.14003) (Mar. 20, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.14003)
-
-- **DVP** [What if...?: Counterfactual Inception to Mitigate Hallucination Effects in Large Multimodal Models](https://arxiv.org/abs/2403.13513) (Mar. 20, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.13513)
-
-- **AIT** [Mitigating Dialogue Hallucination for Large Multi-modal Models via Adversarial Instruction Tuning](https://arxiv.org/abs/2403.10492) (Mar. 15, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.10492)
-
-- **HALC** [HALC: Object Hallucination Reduction via Adaptive Focal-Contrast Decoding](https://arxiv.org/abs/2403.00425) (Mar. 01, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.00425)
-  [![Star](https://img.shields.io/github/stars/BillChan226/HALC.svg?style=social&label=Star)](https://github.com/BillChan226/HALC)
-
-- **IBD** [IBD: Alleviating Hallucinations in Large Vision-Language Models via Image-Biased Decoding](https://arxiv.org/abs/2402.18476) (Feb. 28, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.18476)
-
-- **CGD** [Seeing is Believing: Mitigating Hallucination in Large Vision-Language Models via CLIP-Guided Decoding](https://arxiv.org/abs/2402.15300) (Feb. 23, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.15300)
-
-- **Less is More** [Less is More: Mitigating Multimodal Hallucination from an EOS Decision Perspective](https://arxiv.org/abs/2402.14545) (Feb. 22, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.14545)
-  [![Star](https://img.shields.io/github/stars/yuezih/less-is-more.svg?style=social&label=Star)](https://github.com/yuezih/less-is-more)
-
-- **LogicCheckGPT** [Logical Closed Loop: Uncovering Object Hallucinations in Large Vision-Language Models](https://arxiv.org/abs/2402.11622) (Feb. 18, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.11622)
-  [![Star](https://img.shields.io/github/stars/Hyperwjf/LogicCheckGPT.svg?style=social&label=Star)](https://github.com/Hyperwjf/LogicCheckGPT)
-
-- **POVID** [Aligning Modalities in Vision Large Language Models via Preference Fine-tuning](https://arxiv.org/abs/2402.11411) (Feb. 18, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.11411)
-  [![Star](https://img.shields.io/github/stars/YiyangZhou/POVID.svg?style=social&label=Star)](https://github.com/YiyangZhou/POVID)
-
-- **EFUF** [EFUF: Efficient Fine-grained Unlearning Framework for Mitigating Hallucinations in Multimodal Large Language Models](https://arxiv.org/abs/2402.09801) (Feb. 15, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.09801)
-
-- **IDK-Instruction** [Visually Dehallucinative Instruction Generation: Know What You Don't Know](https://arxiv.org/abs/2402.09717) (Feb. 15, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.09717)
-
-- **MARINE** [Mitigating Object Hallucination in Large Vision-Language Models via Classifier-Free Guidance](https://arxiv.org/abs/2402.08680) (Feb. 13, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.08680)
-
-- **Skip \n** [Skip \n: A Simple Method to Reduce Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2402.01345) (Feb. 12, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.01345)
-
-- **ViGoR** [ViGoR: Improving Visual Grounding of Large Vision Language Models with Fine-Grained Reward Modeling](https://arxiv.org/abs/2402.06118) (Feb. 09, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.06118)
-
-- **LAR-LAF** [Enhancing Multimodal Large Language Models with Vision Detection Models: An Empirical Study](https://arxiv.org/abs/2401.17981) (Jan. 31, 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.17981)
-
-- **Silkie** [Silkie: Preference Distillation for Large Visual Language Models](https://arxiv.org/abs/2312.10665) (Dec. 17, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.10665)
-
-- **HACL** [Hallucination Augmented Contrastive Learning for Multimodal Large Language Model](https://arxiv.org/abs/2312.06968) (Dec. 12, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.06968)
-
-- **MOCHa (OpenCHAIR)** [MOCHa: Multi-Objective Reinforcement Mitigating Caption Hallucinations](https://arxiv.org/abs/2312.03631) (Dec. 06, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.03631)
-  [![Star](https://img.shields.io/github/stars/assafbk/mocha_code.svg?style=social&label=Star)](https://github.com/assafbk/mocha_code)
-
-- **FGHE** [Mitigating Fine-Grained Hallucination by Fine-Tuning Large Vision-Language Models with Caption Rewrites](https://arxiv.org/abs/2312.01701) (Dec. 04, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.01701)
-  [![Star](https://img.shields.io/github/stars/Anonymousanoy/FOHE.svg?style=social&label=Star)](https://github.com/Anonymousanoy/FOHE)
-
-- **HallE-Switch** [HallE-Switch: Controlling Object Hallucination in Large Vision Language Models](https://arxiv.org/abs/2310.01779v2) (Dec. 03, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.01779v2)
-  [![Star](https://img.shields.io/github/stars/bronyayang/HallE_Switch.svg?style=social&label=Star)](https://github.com/bronyayang/HallE_Switch)
-
-- **RLHF-V** [RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback](https://arxiv.org/abs/2312.00849) (Dec. 01, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.00849)
-  [![Star](https://img.shields.io/github/stars/RLHF-V/RLHF-V.svg?style=social&label=Star)](https://github.com/RLHF-V/RLHF-V)
-
-- **OPERA** [OPERA: Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation](https://arxiv.org/abs/2311.17911) (Nov. 29, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.17911)
-  [![Star](https://img.shields.io/github/stars/shikiw/OPERA.svg?style=social&label=Star)](https://github.com/shikiw/OPERA)
-
-- **VCD** [Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding](https://arxiv.org/abs/2311.16922) (Nov. 28, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.16922)
-  [![Star](https://img.shields.io/github/stars/DAMO-NLP-SG/VCD.svg?style=social&label=Star)](https://github.com/DAMO-NLP-SG/VCD)
-
-- **HA-DPO** [Beyond Hallucinations: Enhancing LVLMs through Hallucination-Aware Direct Preference Optimization](https://arxiv.org/abs/2311.16839) (Nov. 28, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.16839)
-
-- **RAH-Bench** [Mitigating Hallucination in Visual Language Models with Visual Supervision](https://arxiv.org/abs/2311.16479) (Nov. 27, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.16479)
-
-- **HalluciDoctor** [HalluciDoctor: Mitigating Hallucinatory Toxicity in Visual Instruction Data](https://arxiv.org/abs/2311.13614) (Nov. 22, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.13614)
-  [![Star](https://img.shields.io/github/stars/Yuqifan1117/HalluciDoctor.svg?style=social&label=Star)](https://github.com/Yuqifan1117/HalluciDoctor)
-
-- **Volcano** [Volcano: Mitigating Multimodal Hallucination through Self-Feedback Guided Revision](https://arxiv.org/abs/2311.07362) (Nov. 14, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.07362)
-  [![Star](https://img.shields.io/github/stars/kaistAI/Volcano.svg?style=social&label=Star)](https://github.com/kaistAI/Volcano)
-
-- **Woodpecker** [Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045) (Oct. 24, 2023)  
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.16045)
-  [![Star](https://img.shields.io/github/stars/BradyFU/Woodpecker.svg?style=social&label=Star)](https://github.com/BradyFU/Woodpecker)
-
-- **LURE** [Analyzing and Mitigating Object Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2310.00754) (Oct. 1, 2023)  
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.00754)
-  [![Star](https://img.shields.io/github/stars/YiyangZhou/LURE.svg?style=social&label=Star)](https://github.com/YiyangZhou/LURE)
-
-- **LRV-Instruction** [Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning](https://arxiv.org/abs/2306.14565) (Sep. 29, 2023)  
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2306.14565)
-  [![Star](https://img.shields.io/github/stars/FuxiaoLiu/LRV-Instruction.svg?style=social&label=Star)](https://github.com/FuxiaoLiu/LRV-Instruction)
-
-- **LLaVA-RLHF** [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2306.14565) (Sep. 25, 2023)  
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.14525)
-  [![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star)](https://github.com/llava-rlhf/LLaVA-RLHF)
-
-- **VIGC** [VIGC: Visual Instruction Generation and Correction](https://arxiv.org/abs/2308.12714) (Sep. 11, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2308.12714)
-  [![Star](https://img.shields.io/github/stars/opendatalab/VIGC.svg?style=social&label=Star)](https://github.com/opendatalab/VIGC)
-
-- **HalDectect** [Detecting and Preventing Hallucinations in Large Vision Language Models](https://arxiv.org/abs/2308.06394) (Aug. 18, 2023)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2308.06394)
+### Citation Text Generation
+
+* [Automatic Generation of Citation Texts in Scholarly Papers: A Pilot Study](https://aclanthology.org/2020.acl-main.550/) (July. 30, 2020)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2020.acl-main.550/) 
+  
+* [Explaining Relationships Among Research Papers](https://arxiv.org/abs/2402.13426) (Feb. 20, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.13426)
+
+- **AutoCite** [AutoCite: Multi-Modal Representation Fusion for Contextual Citation Generation](https://dl.acm.org/doi/10.1145/3437963.3441739) (Mar. 08,  2021)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://dl.acm.org/doi/10.1145/3437963.3441739)
+
+- **BACO** [BACO: A Background Knowledge- and Content-Based Framework for Citing Sentence Generation](https://aclanthology.org/2021.acl-long.116/) (Aug. 1, 2021)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2021.acl-long.116/)
+
+- [Controllable Citation Sentence Generation with Language Models](https://arxiv.org/abs/2211.07066) (Nov. 14, 2022)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2211.07066)
+
+- [Intent-Controllable Citation Text Generation](https://www.mdpi.com/2227-7390/10/10/1763) (May. 21, 2022)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.mdpi.com/2227-7390/10/10/1763)
+
+### Related Work Generation
+
+- [Shallow Synthesis of Knowledge in GPT-Generated Texts: A Case Study in Automatic Related Work Composition](https://arxiv.org/abs/2402.12255) (Feb. 19, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.12255)
+  
+- [Leveraging Large Language Models for Literature Review Tasks - A Case Study Using ChatGPT](https://link.springer.com/chapter/10.1007/978-3-031-48858-0_25) (Dec. 20, 2023)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://link.springer.com/chapter/10.1007/978-3-031-48858-0_25)
+  
+- **LitLLM** [LitLLM: A Toolkit for Scientific Literature Review](https://arxiv.org/abs/2402.01788) (Fe. 02, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.01788) 
+  
+- **HiReview** [HiReview: Hierarchical Taxonomy-Driven Automatic Literature Review Generation](https://arxiv.org/abs/2410.03761) (Oct. 02, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.03761) 
+  
+- [Towards a Unified Framework for Reference Retrieval and Related Work Generation](https://aclanthology.org/2023.findings-emnlp.385) (Dec. 06, 2023)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2023.findings-emnlp.385)
+  
+- [Automating Research Synthesis with Domain-Specific Large Language Model Fine-Tuning](https://arxiv.org/abs/2404.08680) (Apr. 08, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.08680)
+  
+- [Reinforced Subject-Aware Graph Neural Network for Related Work Generation](https://link.springer.com/chapter/10.1007/978-981-97-5492-2_16) (Jul. 26, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://link.springer.com/chapter/10.1007/978-981-97-5492-2_16)
+  
+- [Toward Structured Related Work Generation with Novelty Statements](https://aclanthology.org/2024.sdp-1.5) (Jul. 26, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2024.sdp-1.5)
+
+### Drafting andWriting
+
+- [Generating Scientific Definitions with Controllable Complexity](https://aclanthology.org/2022.acl-long.569) (May. 22, 2022)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2022.acl-long.569)
+
+- **SciCap** [SciCap: Generating Captions for Scientific Figures](https://aclanthology.org/2021.findings-emnlp.277) (Nov. 07, 2021)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2021.findings-emnlp.277)
+
+- **CoAuthor** [CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities](https://arxiv.org/abs/2407.02352) (Apr. 29, 2022)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.02352) 
+
+- [Autonomous LLM-driven research from data to human-verifiable research papers](https://arxiv.org/abs/2404.17605) (Apr. 24, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.17605)
+
+- **PaperRobot** [PaperRobot: Incremental Draft Generation of Scientific Ideas](https://aclanthology.org/P19-1191) (Jun. 28, 2019)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/P19-1191) 
+
+- **AutoSurvey** [AutoSurvey: Large Language Models Can Automatically Write Surveys](https://arxiv.org/abs/2406.10252) (Jun. 10, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.10252) 
+
+- **AI Scientist** [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292) (Aug. 12, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.06292)
+
+- **CycleResearcher** [CycleResearcher: Improving Automated Research via Automated Review](https://arxiv.org/abs/2411.00816) (Oct. 28, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.00816) 
+
+### Benchmarks
+
+- [Enabling Large Language Models to Generate Text with Citations](https://aclanthology.org/2023.emnlp-main.398) (Dec. 06, 2023)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2023.emnlp-main.398)
+  
+- [CiteBench: A Benchmark for Scientific Citation Text Generation](https://aclanthology.org/2023.emnlp-main.455) (Dec. 06, 2023)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2023.emnlp-main.455) 
+  
+- **SciGen** [SciGen: a Dataset for Reasoning-Aware Text Generation from Scientific Tables](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/149e9677a5989fd342ae44213df68868-Abstract-round2.html) (May. 23, 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/149e9677a5989fd342ae44213df68868-Abstract-round2.html)
+  
+- **SciXGen** [SciXGen: A Scientific Paper Dataset for Context-Aware Text Generation](https://aclanthology.org/2021.findings-emnlp.128) (Nov. 7, 2021)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://aclanthology.org/2021.findings-emnlp.128)
 
 ---
 
@@ -593,3 +437,21 @@ If you have any suggestions (missing papers, new papers, key researchers or typo
 
 - **PeerRead** [A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications](https://arxiv.org/abs/1804.09635v1) (Apr. 25, 2018)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1804.09635v1) [![Star](https://img.shields.io/github/stars/allenai/PeerRead.svg?style=social&label=Star)](https://github.com/allenai/PeerRead)
+
+
+
+## Citation
+
+If you find this code useful in your research, please consider citing:
+
+```
+@misc{luo2025llm4srsurveylargelanguage,
+      title={LLM4SR: A Survey on Large Language Models for Scientific Research}, 
+      author={Ziming Luo and Zonglin Yang and Zexin Xu and Wei Yang and Xinya Du},
+      year={2025},
+      eprint={2501.04306},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.04306}, 
+}
+```
